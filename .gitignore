@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# privacy
+Stock.md
+
+# Daily内容自動生成ファイル
+# template以外をすべて無視（.gitignore自身とtemplateフォルダのみ許可）
+Daily/**
+!Daily/template.md
