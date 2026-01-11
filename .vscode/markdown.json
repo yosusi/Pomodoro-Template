@@ -1,0 +1,77 @@
+{
+  "Pomodoro Task - 1 Pomodoro": {
+    "prefix": "task1",
+    "body": [
+      "- [ ] ${1:タスク名} [p] {due:${2:YYYY-MM-DD}}"
+    ],
+    "description": "ポモドーロタスク (1ポモドーロ予定)"
+  },
+  "Pomodoro Task - 2 Pomodoros": {
+    "prefix": "task2",
+    "body": [
+      "- [ ] ${1:タスク名} [p][p] {due:${2:YYYY-MM-DD}}"
+    ],
+    "description": "ポモドーロタスク (2ポモドーロ予定)"
+  },
+  "Pomodoro Task - 3 Pomodoros": {
+    "prefix": "task3",
+    "body": [
+      "- [ ] ${1:タスク名} [p][p][p] {due:${2:YYYY-MM-DD}}"
+    ],
+    "description": "ポモドーロタスク (3ポモドーロ予定)"
+  },
+  "Pomodoro Task - 4 Pomodoros": {
+    "prefix": "task4",
+    "body": [
+      "- [ ] ${1:タスク名} [p][p][p][p] {due:${2:YYYY-MM-DD}}"
+    ],
+    "description": "ポモドーロタスク (4ポモドーロ予定)"
+  },
+  "Pomodoro Task - No Due Date": {
+    "prefix": "taskn",
+    "body": [
+      "- [ ] ${1:タスク名} [p] {due:NONE}"
+    ],
+    "description": "ポモドーロタスク (締切なし)"
+  },
+  "Pomodoro Completed Task": {
+    "prefix": "taskdone",
+    "body": [
+      "- [x] ${1:タスク名} [P] {due:${2:YYYY-MM-DD}}"
+    ],
+    "description": "完了したポモドーロタスク"
+  },
+  "Daily Log Header": {
+    "prefix": "dailylog",
+    "body": [
+      "# ${1:YYYY-MM-DD} - デイリーログ",
+      "",
+      "## 本日の予定",
+      "- [ ] ${2:タスク名} [p] {due:${1:YYYY-MM-DD}}",
+      "",
+      "## 実行ログ",
+      "",
+      "### ${3:09:00} - セッション1",
+      "- [x] ${4:タスク名} [P] {due:${1:YYYY-MM-DD}}",
+      "  - ${5:メモ}",
+      "",
+      "## 振り返り",
+      "- 完了: ${6:N}タスク (${7:N}ポモドーロ)",
+      "- 学んだこと: ${8:内容}",
+      "- 改善点: ${9:内容}",
+      "",
+      "## 明日の予定",
+      "- [ ] ${10:タスク名} [p] {due:${11:YYYY-MM-DD}}"
+    ],
+    "description": "デイリーログテンプレート"
+  },
+  "Session Log": {
+    "prefix": "session",
+    "body": [
+      "### ${1:09:00} - セッション${2:1}",
+      "- [x] ${3:タスク名} [P] {due:${4:YYYY-MM-DD}}",
+      "  - ${5:メモ}"
+    ],
+    "description": "セッションログエントリ"
+  }
+}
